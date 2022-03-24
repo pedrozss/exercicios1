@@ -1,0 +1,19 @@
+import java.util.*;
+import java.lang.*;
+class Main {
+  public static void main(String[] args) {
+    double n1, n2;
+    
+    Scanner scan = new Scanner (System.in);
+
+    System.out.println("Digite o primeiro numero");
+    n1 = scan.nextDouble();
+    
+    System.out.println("Digite o segundo numero");
+    n2 = scan.nextDouble();
+
+    double potencia = (Math.pow(n1,2)) + (Math.pow(n2,2));
+
+    System.out.println("O valor da conta é: "+n1+"^2  + "+n2+"^2 = " + potencia);
+  }
+}
